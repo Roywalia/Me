@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.App {
+  text-align: center;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@media screen {
+  
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+canvas{
+  max-width: 100%;
+}
+.I_am_text {
+  margin-left: 53%;
+  margin-top: 3%;
+}
+.container{
+  max-width: 100% !important;
+  position: relative;
+}
+.container_nav{
+  max-width: 80% !important;
+}
+.moving_cloud{
+  top: 57%;
+  left: 50%;
+  /* z-index: 1000; */
+}
+#aboutme h2{
+  color: white;
+  font-family:'Exo 2', Helvetica, sans-serif
+}
+.skill-item{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: min-content;
+}
+#skills img{
+  width: 3vw;
+}
+.brain_class canvas{
+  height: 50vw !important;
+}
+.brain_class{
+  width:81%;
+}
+
+
+
+#myInput {
+  box-sizing: border-box;
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 6px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  background-color: chocolate;
+  color: white;
+}
+#myInput::placeholder{
+  color: white;
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 25%;
+}
+
+.dropdown-content {
+  background-color: #f6f6f6;
+  /* border: 1px solid #ddd; */
+  z-index: 1;
+}
+
+.dropdown-content div {
+  color: black;
+  padding: 6px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown div:hover {background-color: #ddd;}
+.skills_list{
+  overflow: auto;
+  max-height: 9vw;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+}
+.skills_brick div{
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 4px;
+  /* background-color: darkgrey; */
+}
+.skills_meter_bck{
+  background-color: white;
+  width: 2.1vw;
+  height: 90%;
+  border-radius: 8px;
+  position: relative;
+  border: 1px solid black;
+}
+.skills_meter{
+background-color: darkcyan;
+  width: 2vw;
+  height: 0;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  position: absolute;
+  bottom: 0;
+  transition: height 0.7s ease-in-out;
+}
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3px;
+  width: 100%;
+}
+/* Each skill cell */
+.skill-cell {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(0.7rem + 0.5vw);
+border: 2px solid black;
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: all 0.3s ease;
+  border-radius: 13px;
+  background-color: chocolate;
+  font-family: "Sour Gummy", sans-serif;
+}
+
+.skill-cell:hover {
+border: 2px solid white;
+}
+.riveNoob{
+  width: 109%;
+}
+.riveMed{
+  width: 109%;
+}
+.rivePro{
+  width: 109%;
+}
+.riveDown{
+  width: 205%;
+}
+.riveNoob canvas{
+  height: 9vw !important;
+}
+.riveMed canvas{
+  height: 9vw !important;
+}
+.rivePro canvas{
+  height: 6vw !important;
+}
+.riveDown canvas{
+  height: 5vw !important;
+}
+.carousel-control-next, .carousel-control-prev{
+  width:5% !important;
+}
+
+
+
+
+
+
+
+/* media queries for existing */
+/* @media (max-width: 375px) {
+  .I_am_text{
+    margin-top: 21%;
+    margin-left: 25% !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .I_am_text{
+    margin-top: 15%;
+    margin-left: 34%;
+  }
+} */
+
+@media (max-width: 768px) {
+  .I_am_text{
+    margin-top: 15%;
+    margin-left: 39% !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .I_am_text{
+    margin-left: 56%;
+  }
+}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 1400px) {}
+
+/* media queries for default classes accross screen sizes */
+.fs-0 { 
+  font-size: 7vw; 
+}
+/* @media (max-width: 375px) {
+  .fs-0 { 
+    font-size: 2rem; 
+  }
+}
+@media (min-width: 576px) {
+  .fs-0 { 
+    font-size: 2.5rem; 
+  } 
+} */
+@media (min-width: 768px) {
+ .fs-0 { 
+    font-size: 3rem; 
+  } 
+}
+@media (min-width: 992px) { 
+  .fs-0 { 
+    font-size: 3rem; 
+  } 
+}
+@media (min-width: 1200px) { 
+  .fs-0 { 
+    font-size: 3.5rem; 
+  } 
+}
