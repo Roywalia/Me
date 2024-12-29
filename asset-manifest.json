@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/Me/static/css/main.728cebf3.css",
-    "main.js": "/Me/static/js/main.32ee65eb.js",
+    "main.css": "/Me/static/css/main.c307b5ab.css",
+    "main.js": "/Me/static/js/main.cc0ac689.js",
     "static/js/453.5219244c.chunk.js": "/Me/static/js/453.5219244c.chunk.js",
     "static/media/me2.jpg": "/Me/static/media/me2.a73469f847e4447e7c02.jpg",
     "static/media/me3.png": "/Me/static/media/me3.f95d2f2d936d97fb3226.png",
+    "static/media/music_recom.png": "/Me/static/media/music_recom.aaf43f4b65161f0c2391.png",
     "static/media/dotted_line2.png": "/Me/static/media/dotted_line2.9ecfb983466825dbe9a0.png",
     "static/media/anton-latin-ext-400-normal.woff2": "/Me/static/media/anton-latin-ext-400-normal.45712a77f55f0831511a.woff2",
     "static/media/anton-latin-ext-400-normal.woff": "/Me/static/media/anton-latin-ext-400-normal.539c46a26c9561d40391.woff",
     "static/media/anton-latin-400-normal.woff2": "/Me/static/media/anton-latin-400-normal.3da3746fa89db4a2d99f.woff2",
+    "static/media/whatsapp.png": "/Me/static/media/whatsapp.fdd4b7007148bcf6ce48.png",
     "static/media/exo-latin-400-normal.woff": "/Me/static/media/exo-latin-400-normal.b3cb87790d51eed639f8.woff",
     "static/media/anton-latin-400-normal.woff": "/Me/static/media/anton-latin-400-normal.306ecc1873eabd2e7f79.woff",
     "static/media/exo-latin-ext-400-normal.woff": "/Me/static/media/exo-latin-ext-400-normal.b17f4d4cc34615bb761b.woff",
-    "static/media/cloud2.png": "/Me/static/media/cloud2.8ba52d454194a7e7f11c.png",
+    "static/media/chat.png": "/Me/static/media/chat.74a1dc72220c5f4b74ba.png",
+    "static/media/cv.png": "/Me/static/media/cv.a35429149d2c3df8b741.png",
     "static/media/exo-latin-400-normal.woff2": "/Me/static/media/exo-latin-400-normal.1e1b9213e32307aa4335.woff2",
     "static/media/exo-latin-ext-400-normal.woff2": "/Me/static/media/exo-latin-ext-400-normal.53d691ea06db98416e00.woff2",
     "static/media/anton-vietnamese-400-normal.woff2": "/Me/static/media/anton-vietnamese-400-normal.d7d6c8cafb5c1e7e19c8.woff2",
@@ -20,12 +23,12 @@
     "static/media/exo-vietnamese-400-normal.woff": "/Me/static/media/exo-vietnamese-400-normal.50a17978ecfffd0efb3a.woff",
     "static/media/exo-vietnamese-400-normal.woff2": "/Me/static/media/exo-vietnamese-400-normal.89c5577e8737a0048103.woff2",
     "index.html": "/Me/index.html",
-    "main.728cebf3.css.map": "/Me/static/css/main.728cebf3.css.map",
-    "main.32ee65eb.js.map": "/Me/static/js/main.32ee65eb.js.map",
+    "main.c307b5ab.css.map": "/Me/static/css/main.c307b5ab.css.map",
+    "main.cc0ac689.js.map": "/Me/static/js/main.cc0ac689.js.map",
     "453.5219244c.chunk.js.map": "/Me/static/js/453.5219244c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.728cebf3.css",
-    "static/js/main.32ee65eb.js"
+    "static/css/main.c307b5ab.css",
+    "static/js/main.cc0ac689.js"
   ]
 }
